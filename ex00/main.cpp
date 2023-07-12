@@ -6,7 +6,7 @@
 /*   By: vgejno <vgejno@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/11 11:53:19 by vgejno            #+#    #+#             */
-/*   Updated: 2023/07/11 18:37:20 by vgejno           ###   ########.fr       */
+/*   Updated: 2023/07/12 17:12:37 by vgejno           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ int main() {
 	
 	ClapTrap1.attack( ClapTrap2.getName());
 	ClapTrap2.takeDamage( 3 );
-	ClapTrap2.beRepaired( 0 );
+	ClapTrap2.beRepaired( 2 );
 	ClapTrap2.takeDamage( 4 );
 
 	ClapTrap1.printInfo();
@@ -41,7 +41,7 @@ int main() {
 	}
 		
 	ClapTrap2.attack( ClapTrap1.getName());
-	ClapTrap1.takeDamage( 5 );
+	ClapTrap1.takeDamage( 1 );
 	ClapTrap1.beRepaired( 3 );
 
 	ClapTrap1.printInfo();

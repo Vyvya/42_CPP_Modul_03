@@ -1,4 +1,4 @@
-NAME = claptrap
+NAME = scavtrap
 CXX = g++
 FLAGS = -std=c++98
 FLAGS += -Wall -Werror -Wextra
@@ -6,6 +6,7 @@ RM = rm -f
 
 SRCS = main.cpp \
 		ClapTrap.cpp \
+		ScavTrap.cpp 
 
 OBJS = $(SRCS:.cpp=.o)
 
